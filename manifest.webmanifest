@@ -1,0 +1,14 @@
+{
+"name":"راهنمای جامع مصاحبه گزینش",
+"short_name":"مصاحبه گزینش",
+"description":"راهنمای حرفه‌ای مصاحبه‌گران هسته گزینش",
+"lang":"fa","dir":"rtl",
+"start_url":"./index.html","scope":"./",
+"display":"standalone","orientation":"portrait",
+"background_color":"#F5F7FA","theme_color":"#1E40AF",
+"icons":[
+{"src":"logo.png","sizes":"192x192","type":"image/png","purpose":"any"},
+{"src":"logo.png","sizes":"512x512","type":"image/png","purpose":"any"},
+{"src":"logo.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+]
+}

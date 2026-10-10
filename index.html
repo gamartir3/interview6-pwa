@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#1E40AF">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="logo.png">
+<link rel="icon" type="image/png" href="logo.png">
+<title>راهنمای جامع مصاحبه گزینش</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"><\/script>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app"></div>
+<nav class="bn">
+<button class="nb on" data-n="home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 10l9-7 9 7v10a2 2 0 01-2 2h-4v-7h-6v7H5a2 2 0 01-2-2z"/></svg><span>خانه</span></button>
+<button class="nb" data-n="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span>جستجو</span></button>
+<button class="nb" data-n="tools"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a4 4 0 1 0 5 5l-9 9-5-5 9-9z"/></svg><span>ابزارها</span></button>
+<button class="nb" data-n="progress"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 14l4-4 4 4 4-6"/></svg><span>پیشرفت</span></button>
+<button class="nb" data-n="settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/></svg><span>تنظیمات</span></button>
+</nav>
+<div class="md" id="md"><div class="mdc"><div class="mdi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg></div><h2 id="mdT">پیام</h2><p id="mdX"></p><button onclick="closeMd()">بستن</button></div></div>
+<script src="data.js"><\/script>
+<script src="app.js"><\/script>
+</body>
+</html>
